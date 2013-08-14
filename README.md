@@ -1,4 +1,4 @@
-.tmux.conf
+Personal dotfiles
 ==========
 
-personal tmux config
+includes .vimrc and .tmux.conf
