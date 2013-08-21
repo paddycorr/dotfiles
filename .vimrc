@@ -15,9 +15,13 @@ set tabstop=4
 
 set number
 
+set incsearch
+
 set hlsearch
 
 set ignorecase
+
+set shiftround
 
 set expandtab
 
