@@ -15,14 +15,18 @@ set tabstop=4
 
 set number
 
-set incsearch
-
 set hlsearch
 
 set ignorecase
 
-set shiftround
-
 set expandtab
 
 set autoindent
+
+""show file directory and name
+set laststatus=2   ""sets the statuslin to always be visable
+                   ""1 would be visable when multiple windows
+                   ""and 0 would be never visable)
+set statusline+=%F ""The full current file and Directory.
+                   ""the start wil be truncated when line is 
+                   ""too long for window
