@@ -27,6 +27,9 @@ set autoindent
 set laststatus=2   ""sets the statuslin to always be visable
                    ""1 would be visable when multiple windows
                    ""and 0 would be never visable)
-set statusline+=%F ""The full current file and Directory.
+set statusline+=%F%=%(%p%%%) 
+                    ""The full current file and Directory.
                    ""the start wil be truncated when line is 
                    ""too long for window
+
+set foldmethod=indent
